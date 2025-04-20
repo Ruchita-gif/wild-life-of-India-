@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wildlife of India - Single Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px 0;
+            background-color: #2c3e50;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            display: block;
+            border-radius: 4px;
+        }
+        nav ul li a:hover {
+            background-color: #1abc9c;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section h2, section h3 {
+            color: #2c3e50;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .contact-form {
+            max-width: 500px;
+        }
+        .contact-form label {
+            font-weight: bold;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #16a085;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wildlife of India</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#types">Types of Animals</a></li>
+                <li><a href="#states">States</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to the Wildlife of India</h2>
+            <img src="https://c.ndtvimg.com/gws/ms/the-royal-bengal-tiger-facts-about-indias-national-animal/assets/2.jpeg?1728910500" alt="Bengal Tiger" />
+            <p>Discover the rich and diverse wildlife of India, home to some of the world's most magnificent animals and natural habitats.</p>
+            <h3>Explore India's Wildlife</h3>
+            <p>India is known for its incredible biodiversity, ranging from majestic tigers and elephants to colorful birds and reptiles. Our website provides information about the various species, their habitats, and the states where you can find them.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are storytellers, conservationists, and digital explorers united by our passion for India's wilderness</p>
+            <h3>The Heartbeat of the Jungle</h3>
+            <p>Jungle Pulse was born from a midnight encounter with a Bengal tiger in the forests of Bandhavgarh. That moment of connection with wild India sparked our mission to bring the jungle's magic to the digital world.</p>
+            <p>Our team combines wildlife biologists, tribal storytellers, and digital artists to create experiences that honor both scientific truth and ancient wisdom.</p>
+            <p>We believe technology should not separate us from nature, but rather deepen our connection to it. Every element of Jungle Pulse is designed to evoke the sights, sounds, and soul of India's wilderness.</p>
+            <img src="https://deluxe-concha-dd37f3.netlify.app/reforestation-done-by-voluntary-group.jpg" alt="Reforestation by Voluntary Group" />
+        </section>
+        <section id="types">
+            <h2>Types of Animals in India</h2>
+            <section class="animal-type">
+                <h3>Mammals</h3>
+                <img src="https://readdy.ai/api/search-image?query=A%20close-up%20portrait%20of%20a%20majestic%20Bengal%20tiger%20with%20intense%20amber%20eyes%20against%20a%20blurred%20forest%20background.%20The%20image%20captures%20the%20tigers%20distinctive%20orange%20coat%20with%20black%20stripes%20in%20stunning%20detail%2C%20highlighting%20its%20powerful%20features%20and%20regal%20presence.%20The%20lighting%20is%20natural%2C%20creating%20a%20dramatic%20effect%20that%20emphasizes%20the%20tigers%20status%20as%20Indias%20national%20animal.&width=600&height=400&seq=2&orientation=landscape" alt="Bengal Tiger" />
+                <p>India is home to a wide variety of mammals including the Bengal tiger, Indian elephant, Indian leopard, and the Asiatic lion.</p>
+                <div class="animal-gallery">
+                    <img src="https://www.treehugger.com/thmb/ZzVxBuqS2CJNm8ynE_A2_nflxcg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1307943051-4fe0347e225041a39a90fffde678ee64.jpg" alt="Indian Elephant" />
+                    <img src="https://bigcatsindia.com/wp-content/uploads/2019/09/Indian-Leopard-Kabini-Wildlife.jpg" alt="Indian Leopard" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg" alt="Indian Rhinoceros" />
+                </div>
+            </section>
+            <section class="animal-type">
+                <h3>Birds</h3>
+                <img src="https://readdy.ai/api/search-image?query=A%20vibrant%20Indian%20peafowl%20%28peacock%29%20with%20its%20magnificent%20blue-green%20plumage%20and%20iridescent%20feathers%20fully%20displayed%20in%20a%20fan.%20The%20bird%20is%20standing%20in%20a%20natural%20setting%20with%20soft%20golden%20light%20illuminating%20its%20spectacular%20colors.%20The%20image%20captures%20the%20national%20bird%20of%20India%20in%20all%20its%20glory%2C%20showcasing%20the%20intricate%20patterns%20and%20the%20brilliant%20colors%20of%20its%20extended%20tail%20feathers%20against%20a%20blurred%20natural%20background.&width=600&height=400&seq=3&orientation=landscape" alt="Indian Peafowl" />
+                <p>India is home to over 1,300 bird species, including the magnificent Indian peacock and endangered species.</p>
+                <div class="animal-gallery">
+                    <img src="https://cdn.download.ams.birds.cornell.edu/api/v1/asset/146172721/320" alt="Great Hornbill" />
+                    <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/122309881/1200" alt="Sarus Crane" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Indian_roller_%28Coracias_benghalensis%29_Photograph_by_Shantanu_Kuveskar.jpg" alt="Indian Roller" />
+                </div>
+            </section>
+            <section class="animal-type">
+                <h3>Reptiles</h3>
+                <img src="https://pbs.twimg.com/media/ElZKKzyUUAALWVN.jpg" alt="Indian Cobra" />
+                <p>Discover India's diverse reptilian fauna, from the gharial and king cobra to various turtle species.</p>
+                <div class="animal-gallery">
+                    <img src="https://tntribune.com/wp-content/uploads/2021/06/210622_Gharial_01-scaled.jpg" alt="Gharial" />
+                    <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2dldHR5aW1hZ2VzLTE3OTM4Mjg4OC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ==" alt="Indian Python" />
+                </div>
+            </section>
+        </section>
+        <section id="states">
+            <h2>Wildlife by States in India</h2>
+            <img src="https://public.readdy.ai/gen_page/map_placeholder_1280x720.png" alt="Wildlife Map of India" />
+            <section class="state">
+                <h3>Rajasthan</h3>
+                <img src="https://bigcatswildcats.com/wp-content/uploads/2024/06/bengal-tiger-from-Asia.jpg" alt="Ranthambore Tiger" />
+                <p>Rajasthan is famous for the Ranthambore National Park, home to Bengal tigers and diverse wildlife.</p>
+            </section>
+            <section class="state">
+                <h3>Kerala</h3>
+                <img src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1642606057_20200212162052.png" alt="Elephant in Kerala" />
+                <p>Kerala's Periyar Wildlife Sanctuary is known for elephants, tigers, and rich biodiversity.</p>
+            </section>
+            <section class="state">
+                <h3>Assam</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg" alt="One-horned Rhinoceros" />
+                <p>Assam is home to Kaziranga National Park, famous for the one-horned rhinoceros and other wildlife.</p>
+            </section>
+            <section class="state">
+                <h3>Uttarakhand</h3>
+                <img src="https://images.ctfassets.net/1mle4fbytmpl/60jIyNAXmMn0nXWUEzCjk2/af0d16b30e755d408a6b98cbee5dd5a7/Snow-leopard-hero.jpeg" alt="Snow Leopard" />
+                <p>Uttarakhand's Hemis National Park shelters the elusive snow leopard and other Himalayan species.</p>
+            </section>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or want to learn more about India's wildlife, please reach out to us using the form below.</p>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" required /><br />
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" required /><br />
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" rows="5" required></textarea><br />
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Wildlife of India. All rights reserved.</p>
+    </footer>
+</body>
+</html>
