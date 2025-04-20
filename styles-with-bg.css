@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.istockphoto.com/id/657233766/vector/vector-evening-tropical-rainforest-jungle-background-with-jaguar-sloth-monkey-and-qetzal.jpg?s=612x612&w=0&k=20&c=3A7q0qydmBQvQtKnhThSIu0wmAscYp2IHKaBHNgfgXw=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+}
+
+/* Existing styles below */
+header {
+    background-color: rgba(44, 62, 80, 0.8);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 4px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #1abc9c;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+.animal-type, .state {
+    margin-bottom: 30px;
+}
+
+.animal-gallery img {
+    margin: 5px;
+    border: 1px solid #1abc9c;
+    border-radius: 6px;
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.animal-type img, .state img, main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.contact-form {
+    max-width: 500px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #16a085;
+}
